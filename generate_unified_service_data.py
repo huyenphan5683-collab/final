@@ -38,9 +38,9 @@ MONTH_VOLUME_FACTORS = {
 }
 
 BASE_YEAR_VOLUME = {
-    2023: 3600,
-    2024: 4500,
-    2025: 5200,
+    2023: 48036,
+    2024: 51593,
+    2025: 56448,
 }
 
 SEVERITIES = ["Critical", "High", "Medium", "Low"]
