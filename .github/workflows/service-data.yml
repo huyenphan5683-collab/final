@@ -37,11 +37,11 @@ jobs:
 
       - name: Validate existing inputs
         if: ${{ inputs.mode == 'validate_existing' }}
-        run: python scripts/validate_existing_inputs.py
+        run: python validate_existing_inputs.py
 
       - name: Generate unified dataset
         if: ${{ inputs.mode == 'generate_unified' }}
-        run: python scripts/generate_unified_service_data.py
+        run: python generate_unified_service_data.py
 
       - name: Upload outputs
         uses: actions/upload-artifact@v4
